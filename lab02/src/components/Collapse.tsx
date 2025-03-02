@@ -17,7 +17,7 @@ const Collapse: React.FC<Props> = ({ className, title, children }) => {
         <button onClick={() => setOpen((prev) => !prev)}>X</button>
       </div>
 
-      {open && <div>{children}</div>}
+      {open && <div className="pt-2">{children}</div>}
     </div>
   );
 };

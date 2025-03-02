@@ -18,12 +18,11 @@ const Sidebar = () => {
         <div className="grid grid-cols-2">
           <CheckBox title="Pan-tried" value="pan-tried" />
           <CheckBox title="Stir-fried" value="stir-tried" />
-          <CheckBox title="Pan-tried" value="pan-tried" />
-          <CheckBox title="Stir-fried" value="stir-tried" />
-          <CheckBox title="Pan-tried" value="pan-tried" />
-          <CheckBox title="Stir-fried" value="stir-tried" />
-          <CheckBox title="Pan-tried" value="pan-tried" />
-          <CheckBox title="Stir-fried" value="stir-tried" />
+          <CheckBox title="Roasted" value="roasted" />
+          <CheckBox title="Sauteed" value="sautted" />
+          <CheckBox title="Baked" value="baked" />
+          <CheckBox title="Streamed" value="streamed" />
+          <CheckBox title="Stewed" value="stewed" />
         </div>
       </Collapse>
 
@@ -32,40 +31,56 @@ const Sidebar = () => {
       </Collapse>
 
       <Collapse className="py-4 border-b border-gray-200" title="Rating">
-        <div className="flex items-center mt-2">
+        <label className="flex items-center mt-2 custom-checkbox">
           <input type="checkbox" id="rating-5" />
-          <label className="ml-2" htmlFor="rating-5">
-            <img src="./assets/images/rating_5.png" alt="Rating 5" />
-          </label>
-        </div>
+          <span className="checkmark"></span>
 
-        <div className="flex items-center mt-2">
+          <img
+            className="ml-2"
+            src="./assets/images/rating_5.png"
+            alt="Rating 5"
+          />
+        </label>
+
+        <label className="flex items-center mt-2 custom-checkbox">
           <input type="checkbox" id="rating-4" />
-          <label className="ml-2" htmlFor="rating-4">
-            <img src="./assets/images/rating_4.png" alt="Rating 4" />
-          </label>
-        </div>
+          <span className="checkmark"></span>
+          <img
+            className="ml-2"
+            src="./assets/images/rating_4.png"
+            alt="Rating 4"
+          />
+        </label>
 
-        <div className="flex items-center mt-2">
+        <label className="flex items-center mt-2 custom-checkbox">
           <input type="checkbox" id="rating-3" />
-          <label className="ml-2" htmlFor="rating-3">
-            <img src="./assets/images/rating_3.png" alt="Rating 3" />
-          </label>
-        </div>
+          <span className="checkmark"></span>
+          <img
+            className="ml-2"
+            src="./assets/images/rating_3.png"
+            alt="Rating 3"
+          />
+        </label>
 
-        <div className="flex items-center mt-2">
+        <label className="flex items-center mt-2 custom-checkbox">
           <input type="checkbox" id="rating-2" />
-          <label className="ml-2" htmlFor="rating-2">
-            <img src="./assets/images/rating_2.png" alt="Rating 2" />
-          </label>
-        </div>
+          <span className="checkmark"></span>
+          <img
+            className="ml-2"
+            src="./assets/images/rating_2.png"
+            alt="Rating 2"
+          />
+        </label>
 
-        <div className="flex items-center mt-2">
+        <label className="flex items-center mt-2 custom-checkbox">
           <input type="checkbox" id="rating-1" />
-          <label className="ml-2" htmlFor="rating-1">
-            <img src="./assets/images/rating_1.png" alt="Rating 1" />
-          </label>
-        </div>
+          <span className="checkmark"></span>
+          <img
+            className="ml-2"
+            src="./assets/images/rating_1.png"
+            alt="Rating 1"
+          />
+        </label>
       </Collapse>
 
       <div className="p-4">

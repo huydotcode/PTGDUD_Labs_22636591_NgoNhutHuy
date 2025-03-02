@@ -8,9 +8,10 @@ interface Props {
 const CheckBox: React.FC<Props> = ({ value, title }) => {
   return (
     <div className="p-2">
-      <input type="checkbox" id={value} />
-      <label className="ml-1" htmlFor={value}>
-        {title}
+      <label className="custom-checkbox flex items-center">
+        <input type="checkbox" id={value} value={value} />
+        <span className="checkmark"></span>
+        <span className="ml-2">{title}</span>
       </label>
     </div>
   );
