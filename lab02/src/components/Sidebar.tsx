@@ -27,6 +27,9 @@ const Sidebar = () => {
       </Collapse>
 
       <Collapse className="py-4 border-b border-gray-200" title="Time">
+        <div className="w-full text-center">
+          30 minutes <span className="px-4"></span> 50 minutes
+        </div>
         <img src="./assets/images/slider.png" alt="Slider" />
       </Collapse>
 
