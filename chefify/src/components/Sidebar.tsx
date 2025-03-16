@@ -1,6 +1,5 @@
-import React from "react";
-import Collapse from "./Collapse";
 import CheckBox from "./CheckBox";
+import Collapse from "./Collapse";
 
 const Sidebar = () => {
   return (

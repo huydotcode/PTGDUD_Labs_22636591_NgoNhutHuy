@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "name": "Italian-style tomato salad",
+      "desc": "Italian-style tomato salad",
+      "image": "https://res.cloudinary.com/da4pyhfyy/image/upload/v1741504181/chefify/fzlmwlasmclpjf3zvfjz.png",
+      "time": "20 minutes",
+      "createdAt": "2023-08-02"
+    },
+    {
+      "id": 2,
+      "name": "Vegetable and shrimp spagheti",
+      "desc": "Vegetable and shrimp spagheti",
+      "image": "https://res.cloudinary.com/da4pyhfyy/image/upload/v1741504181/chefify/smzf7ksu7jwx39xwubs5.png",
+      "time": "12 minutes",
+      "createdAt": "2023-08-04"
+    },
+    {
+      "id": 3,
+      "name": "Lotus delight salad",
+      "desc": "Lotus delight salad",
+      "image": "https://res.cloudinary.com/da4pyhfyy/image/upload/v1741504181/chefify/lpheqviy8saisvwc1jtx.png",
+      "time": "20 minutes",
+      "createdAt": "2023-08-02"
+    },
+    {
+      "id": 4,
+      "name": "Snack cakes",
+      "desc": "Snack cakes",
+      "image": "https://res.cloudinary.com/da4pyhfyy/image/upload/v1741504181/chefify/of3fa7xvuvv3znczzooy.png",
+      "time": "12 minutes",
+      "createdAt": "2023-08-04"
+    },
+    {
+      "id": 5,
+      "name": "Salad with cabbage and shrimp",
+      "desc": "Salad with cabbage and shrimp",
+      "image": "https://res.cloudinary.com/da4pyhfyy/image/upload/v1741504181/chefify/njoxjjelh5znj6ov8kzg.png",
+      "time": "12 minutes",
+      "createdAt": "2023-08-04"
+    },
+    {
+      "id": 6,
+      "name": "Sunny-side up fried eggs",
+      "desc": "Sunny-side up fried eggs",
+      "image": "https://res.cloudinary.com/da4pyhfyy/image/upload/v1741504181/chefify/ppzrccotqdv84muxv0bn.png",
+      "time": "12 minutes",
+      "createdAt": "2023-08-04"
+    },
+    {
+      "id": 7,
+      "name": "Bean, shrimp, and potato salad",
+      "desc": "Bean, shrimp, and potato salad",
+      "image": "https://res.cloudinary.com/da4pyhfyy/image/upload/v1741504181/chefify/y5ikfaslsnaoxosclvso.png",
+      "time": "12 minutes",
+      "createdAt": "2023-08-04"
+    },
+    {
+      "id": 8,
+      "name": "Lotus delight salad",
+      "desc": "Lotus delight salad",
+      "image": "https://res.cloudinary.com/da4pyhfyy/image/upload/v1741504181/chefify/ppzrccotqdv84muxv0bn.png",
+      "time": "12 minutes",
+      "createdAt": "2023-08-04"
+    }
+  ]
