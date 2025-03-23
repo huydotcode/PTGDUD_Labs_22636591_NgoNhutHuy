@@ -25,9 +25,10 @@ const Navbar = () => {
         <div className="ml-4 flex items-center bg-[#f3f4f6] p-2 rounded-xl">
           <img src="./assets/images/search.png" alt="Search" />
           <input
-            className="pl-2"
+            className="pl-2 text-xs min-w-[250px] "
             type="text"
             value={search}
+            placeholder="What would you like to cook?"
             onChange={(e) => setSearch(e.target.value)}
             onKeyDown={handleKey}
           />
