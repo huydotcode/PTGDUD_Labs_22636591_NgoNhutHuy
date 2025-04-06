@@ -23,6 +23,7 @@ import Sidebar from "../../components/Sidebar";
 const SearchPage = () => {
   const [recipes, setRecipes] = useState<IRecipe[]>([]);
   const [searchParams] = useSearchParams();
+  const [loading, setLoading] = useState(false);
   const query = searchParams.get("query");
 
   const handleChangeSort = (value: string) => {
@@ -44,6 +45,8 @@ const SearchPage = () => {
   useEffect(() => {
     (async () => {
       try {
+        setLoading(true);
+
         const res = await fetch(
           "https://64f35296edfa0459f6c67d04.mockapi.io/saved-recipes"
         );
@@ -56,11 +59,13 @@ const SearchPage = () => {
 
           setRecipes(filteredData);
           return;
+        } else {
+          setRecipes(data);
         }
-
-        setRecipes(data);
       } catch (error) {
         console.log(error);
+      } finally {
+        setLoading(false);
       }
     })();
   }, [query]);
@@ -70,7 +75,7 @@ const SearchPage = () => {
       <div className="flex justify-between w-full">
         <Sidebar />
 
-        {recipes.length == 0 && (
+        {!loading && recipes.length == 0 && (
           <div className="flex flex-1 items-center justify-center flex-col">
             <h1 className="text-2xl font-bold">
               Sorry, no results were found for "{query}"

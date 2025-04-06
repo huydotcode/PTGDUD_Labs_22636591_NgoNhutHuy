@@ -8,7 +8,7 @@ import SearchPage from "./pages/search/SearchPage";
 function App() {
   return (
     <BrowserRouter>
-      <div className="max-w-[1200px] mx-auto">
+      <div className="max-w-[1400px] mx-auto">
         <Navbar />
 
         <Routes>

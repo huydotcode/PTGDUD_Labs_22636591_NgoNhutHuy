@@ -28,7 +28,7 @@ const RecipeItem = ({ data }: Props) => {
           </Button>
         </div>
         <div>
-          <span className="rounded-sm text-[var(--primary-color)] bg-gray-200 px-2 text-sm">
+          <span className="rounded-sm text-[var(--primary-color)] bg-gray-200 px-2 py-1 text-sm">
             {data.time}
           </span>
         </div>
