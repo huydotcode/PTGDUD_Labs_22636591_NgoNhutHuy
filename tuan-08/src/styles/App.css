@@ -6,3 +6,7 @@
   --color-hover: #f48db0;
   --color-secondary-2: #f3f4f6;
 }
+
+button {
+  cursor: pointer;
+}

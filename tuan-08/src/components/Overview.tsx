@@ -46,7 +46,7 @@ const Overview = () => {
   }, [overviewData.length, setOverviewData]);
 
   return (
-    <div className="p-6">
+    <div>
       <SectionTitle icon={<MdDashboard />} title="Overview" />
 
       <div className="grid grid-cols-3 gap-4">
@@ -66,7 +66,7 @@ const Overview = () => {
               <div
                 className={`absolute top-2 right-2 p-4 w-12 h-12 rounded-xl flex items-center justify-center`}
               >
-                <span className="text-4xl">
+                <span className="text-3xl">
                   {
                     overviews.find((overview) => overview.name === item.name)
                       ?.icon
@@ -75,7 +75,7 @@ const Overview = () => {
               </div>
 
               <h2 className="text-lg font-bold">{item.name}</h2>
-              <p className="text-4xl font-bold mt-3">{`${item.unit}${item.value} `}</p>
+              <p className="text-3xl font-bold mt-3">{`${item.unit}${item.value} `}</p>
               <p className="text-sm mt-4">
                 <span className="text-green-500 font-bold">{`${item.percentage}% `}</span>
                 period of change

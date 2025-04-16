@@ -4,7 +4,7 @@ import Avatar from "../Avatar";
 
 const Header = () => {
   return (
-    <div className="flex items-center justify-between p-6 bg-primary">
+    <div className="flex items-center justify-between px-6 bg-primary border-b h-[60px]">
       <h1 className="text-secondary text-2xl font-bold">Dashboard</h1>
 
       <div className="flex items-center gap-2">
