@@ -1,0 +1,22 @@
+{
+  "overview_data": [
+    {
+      "name": "Turnover",
+      "value": 92405,
+      "unit": "$",
+      "percentage": 5.39
+    },
+    {
+      "name": "Profit",
+      "value": 32218,
+      "unit": "$",
+      "percentage": 5.39
+    },
+    {
+      "name": "New customer",
+      "value": 298,
+      "unit": "",
+      "percentage": 6.84
+    }
+  ]
+}
