@@ -3,9 +3,10 @@ import { HiDocumentReport } from "react-icons/hi";
 import { axiosInstance } from "../lib/axios";
 import SectionTitle from "./SectionTitle";
 import Table from "./Table";
+import AddUser from "./AddUser";
 
 const DetailReport = () => {
-  const [orders, setOrders] = useState([]);
+  const [orders, setOrders] = useState<Data[]>([]);
 
   useEffect(() => {
     (async () => {
@@ -21,7 +22,10 @@ const DetailReport = () => {
 
   return (
     <div className="mt-4">
-      <SectionTitle icon={<HiDocumentReport />} title="Detailed report" />
+      <div className="flex items-center justify-between">
+        <SectionTitle icon={<HiDocumentReport />} title="Detailed report" />
+        <AddUser setData={setOrders} />
+      </div>
       <Table data={orders} setData={setOrders} />
     </div>
   );

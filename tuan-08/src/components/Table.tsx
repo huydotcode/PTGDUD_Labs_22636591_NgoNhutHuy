@@ -19,16 +19,6 @@ interface Props {
   setData: React.Dispatch<React.SetStateAction<Data[]>>;
 }
 
-interface Data {
-  id: number;
-  name: string;
-  avatar: string;
-  company: string;
-  order_value: number;
-  order_date: string;
-  order_status: string;
-}
-
 const { Option } = Select;
 
 const Table = ({ data, setData }: Props) => {
